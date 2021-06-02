@@ -8,6 +8,11 @@ object Package {
     const val versionCode = 1
 }
 
+object Database {
+    const val name = "ComChatDatabase"
+    const val packageName = "moe.tlaster.comchat.common.db"
+}
+
 object Lang {
     const val jvmTarget = "11"
     val java = JavaVersion.VERSION_11

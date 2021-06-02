@@ -85,8 +85,7 @@ android {
 }
 
 sqldelight {
-    database("${Package.name}Database") {
-        packageName = "moe.tlaster.comchat.common.db"
-        sourceFolders = listOf("sqldelight")
+    database(Database.name) {
+        packageName = Database.packageName
     }
 }
